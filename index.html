@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <title>Netflix Clone</title>
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+-->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">SONYFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#relacionados">Relacionados</a>
+                <a href="#exclusivos">Exclusivos</a>
+                <a href="#ultimos">Últimos jogados</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">UNCHARTED 4</h3>
+                <p class="descricao">Jogado de volta ao mundo emq que deixou para trás, Nathan Drake deve decidir o que ele sacrificará para resgatar as pessoas que ama. Junte-se a Drake, Sam, Elena e Sully em uma aventura épica ao redor do mundo pelas florestas, pelas cidades perdidas e no pico de montanhas nevadas em busca de tesouros perdidos.</p>
+                <div class="botoes">
+                    <button role="button" class="botao" onclick=play()>
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÔES
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <div id="relacionados" class="carrosel-filmes">
+        <h1>Relacionados ao jogo principal</h1>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/uncharted1.jpeg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/uncharted2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/uncharted3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/unchartedvita.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/lastofus.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/lastofus2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="exclusivos" class="carrosel-filmes">
+        <h1>Exclusivos</h1>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/uncharted1.jpeg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/lastofus.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/uncharted2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/uncharted3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/lastofus2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/unchartedvita.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/horizonzerodawn.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/infamoussecondson.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/godofwar.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="ultimos" class="carrosel-filmes">
+        <h1>Últimos jogados</h1>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/kh1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/khchain.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/uncharted2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/kh2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/horizonzerodawn.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/khbbs.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/kh3.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/infamoussecondson.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/godofwar.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/30972843b6.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
+
+    
+</body>
+</html>
